@@ -4,5 +4,6 @@ Simple project for drawing figures like windows paint. Is created with windows f
 In the app you have 13 options for different shapes and you can select several shapes when you create 
 one shape you can paint it with different color rotate it and to
 make it with more width outlines and to make them transperant or select and delete selected shapes.
+App use System.Drawing; and System.Collections.Generic;.
 
 Technologies: windows forms, C#.
