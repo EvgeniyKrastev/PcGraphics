@@ -1,9 +1,7 @@
 # PcGraphics
 
-Simple project for drawing figures like windows paint. Is created with windows forms using C#.
-In the app you have 13 options for different shapes and you can select several shapes when you create 
-one shape you can paint it with different color rotate it and to
-make it with more width outlines and to make them transperant or select and delete selected shapes.
-App use System.Drawing; and System.Collections.Generic;.
+A simple project for drawing figures, similar to Windows Paint, is created with Windows Forms using C#. In the app, you have options to draw shapes such as ellipses, triangles, polygons, rectangles, and others, either obstructed by lines or not. The positioning of the lines in the correct places is achieved through calculations within the code.
+You can choose from various shapes, and you have the flexibility to select multiple shapes. When creating a shape, you can customize it with different colors, rotate it at a specific angle, adjust the width of borders, and make them transparent with opacity. Additionally, you can select and delete specific shapes.
+To position the shapes correctly on the display, horizontal and vertical measurements are set. When creating a figure, the app determines whether it is an ellipse, triangle, square, or polygon. By multiplying and dividing the horizontal and vertical values of the four points, the figure is created.
 
-Technologies: windows forms, C#.
+Technologies used: Windows Forms, C#, System Drawing, Draw src Model, System collections Generic.
